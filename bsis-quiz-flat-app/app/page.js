@@ -10,7 +10,7 @@ const questions = [
   // ... add remaining questions here
 ];
 
-export default function BSISQuizApp() {
+export default function page() {
   const [current, setCurrent] = useState(0);
   const [selected, setSelected] = useState(null);
   const [score, setScore] = useState(0);
